@@ -17,6 +17,10 @@ header {
         font-size: 1.4rem;
         text-decoration: none;
         color: aliceblue; }
+        header ul li a :hover {
+          color: antiquewhite; }
   header a {
     text-decoration: none;
     color: aliceblue; }
+    header a :hover {
+      color: antiquewhite; }

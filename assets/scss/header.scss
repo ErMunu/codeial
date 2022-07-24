@@ -18,11 +18,17 @@ header {
                 font-size: 1.4rem;
                 text-decoration: none;
                 color: aliceblue;
+                :hover{
+                    color: antiquewhite;
+                }
             }
         }
     }
     a{
         text-decoration: none;
         color: aliceblue;
+        :hover{
+            color: antiquewhite;
+        }
     }
 }
