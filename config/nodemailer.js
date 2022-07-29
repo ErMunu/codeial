@@ -1,20 +1,10 @@
 const nodemailer = require("nodemailer");
 const ejs = require('ejs');
-const dotenv = require('dotenv');
 const Path = require('path');
-dotenv.config();
+const env = require('./environment')
 
 
-let transporter = nodemailer.createTransport({
-    service: 'hostinger',
-    host: 'smtp.hostinger.com',
-    port: 587,
-    secure: false,
-    auth: {
-        user: process.env.emailUserName,
-        pass: process.env.emailPassword
-    }
-});
+let transporter = nodemailer.createTransport(env.smtp);
 
 let renderTemplate = (data, relativePath) => {
     let mailHTML;

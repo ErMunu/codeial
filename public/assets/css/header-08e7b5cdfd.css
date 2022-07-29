@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  background-color: darkslategray;
+  color: aliceblue;
+  font-size: 1.8rem; }
+  header ul {
+    display: flex;
+    text-align: right; }
+    header ul li {
+      list-style: none;
+      margin-top: 10px;
+      padding: 0 20px;
+      color: aliceblue; }
+      header ul li a {
+        font-size: 1.4rem;
+        text-decoration: none;
+        color: aliceblue; }
+        header ul li a :hover {
+          color: antiquewhite; }
+  header a {
+    text-decoration: none;
+    color: aliceblue; }
+    header a :hover {
+      color: antiquewhite; }
