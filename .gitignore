@@ -2,3 +2,4 @@
 /uploads
 .env
 /config/environment.js
+/production_logs
