@@ -1,4 +1,4 @@
 # codeial
 Coding Social
 
-Project to learn expressjs
+Project to learn Express.js
